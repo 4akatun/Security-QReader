@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secure QR Reader</string>
+    <string name="camera_permission_required">Camera permission is required to scan QR codes</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="ready_to_scan">Ready to scan</string>
+    <string name="position_qr_code">Position QR code within the frame</string>
+    <string name="url_scanned">URL scanned</string>
+    <string name="content_scanned">Content scanned</string>
+    <string name="open_url">Open URL</string>
+    <string name="copy">Copy</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="ok">OK</string>
+    <string name="qr_code_detected">QR Code Detected</string>
+    <string name="security_assessment">Security Assessment</string>
+    <string name="risk_level">Risk Level</string>
+    <string name="https_enabled">HTTPS</string>
+    <string name="warning">Warning</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_message">Are you sure you want to clear the scan history?</string>
+    <string name="last_scanned_url">Last Scanned URL</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="cannot_open_url">Cannot open URL</string>
+    <string name="camera_error">Camera error</string>
+    <string name="permission_denied">Permission denied</string>
+</resources>

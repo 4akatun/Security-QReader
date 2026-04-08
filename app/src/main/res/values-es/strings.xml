@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lector QR Seguro</string>
+    <string name="camera_permission_required">Se necesita permiso de cámara para escanear códigos QR</string>
+    <string name="camera_permission_denied">Permiso de cámara denegado</string>
+    <string name="ready_to_scan">Listo para escanear</string>
+    <string name="position_qr_code">Coloque el código QR dentro del marco</string>
+    <string name="url_scanned">URL escaneada</string>
+    <string name="content_scanned">Contenido escaneado</string>
+    <string name="open_url">Abrir URL</string>
+    <string name="copy">Copiar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="clear">Limpiar</string>
+    <string name="ok">Aceptar</string>
+    <string name="qr_code_detected">Código QR Detectado</string>
+    <string name="security_assessment">Evaluación de Seguridad</string>
+    <string name="risk_level">Nivel de Riesgo</string>
+    <string name="https_enabled">HTTPS</string>
+    <string name="warning">Advertencia</string>
+    <string name="clear_history">Limpiar Historial</string>
+    <string name="clear_history_message">¿Está seguro de que desea limpiar el historial de escaneo?</string>
+    <string name="last_scanned_url">Última URL Escaneada</string>
+    <string name="copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="cannot_open_url">No se puede abrir la URL</string>
+    <string name="camera_error">Error de cámara</string>
+    <string name="permission_denied">Permiso denegado</string>
+</resources>

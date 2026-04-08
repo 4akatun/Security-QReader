@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- QR Code Pattern (simplified) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,28h12v12h-12z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,28h12v12h-12z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,68h12v12h-12z"/>
+
+    <!-- Corner squares -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30h8v8h-8z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,30h8v8h-8z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,70h8v8h-8z"/>
+
+    <!-- Scan line -->
+    <path
+        android:fillColor="#03DAC5"
+        android:pathData="M20,54h68v2h-68z"/>
+
+    <!-- Flashlight beam indicator (top right) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M76,22 L84,14 L88,18 L80,26 Z"/>
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M80,26 L88,18 L90,20 L82,28 Z"/>
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M74,20 L80,14 L84,18 L78,24 Z"/>
+
+</vector>
