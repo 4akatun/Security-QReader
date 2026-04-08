@@ -1,0 +1,12 @@
+Version 1.0.1 (1)
+- Added flashlight toggle button for low-light scanning
+- Updated app icon with flashlight indicator
+- Minor UI improvements
+
+Version 1.0.0 (1)
+- Initial release
+- QR code scanning with ML Kit (offline)
+- URL security validation and phishing detection
+- Security risk assessment for each scan
+- Encrypted storage with Android Keystore
+- Comprehensive security hardening

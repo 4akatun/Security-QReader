@@ -1,0 +1,1 @@
+A secure QR code reader focused on privacy and security. Scans QR codes offline with ML Kit, validates URLs for phishing attempts, and alerts you before opening potentially dangerous links.

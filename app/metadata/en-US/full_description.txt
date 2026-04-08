@@ -1,0 +1,35 @@
+# Secure QR Reader
+
+A privacy-focused QR code scanner for Android with comprehensive security features.
+
+## Features
+
+- **Offline QR Scanning**: Uses Google ML Kit for barcode scanning - all processing happens locally on your device
+- **URL Security Validation**: Detects phishing attempts, dangerous patterns, and suspicious URLs before you open them
+- **Security Warnings**: Shows clear risk levels (Low/Medium/High/Critical) for each scanned QR code
+- **Encrypted Storage**: Uses AES-256-GCM encryption with Android Keystore for any stored data
+- **Minimal Permissions**: Only requires camera (for scanning) and internet (for opening URLs)
+- **No Data Collection**: Does not send any scanned data to external servers
+- **Screenshot Protection**: Prevents screenshots and screen recording of the app
+
+## Security Measures
+
+1. **Code Obfuscation**: R8/ProGuard enabled in release builds
+2. **URL Validation**: Detects XSS patterns, homoglyph attacks, URL shorteners, and credential injection
+3. **HTTPS Enforcement**: Only allows opening HTTPS URLs (configurable)
+4. **App Integrity Checks**: Verifies app signature and detects emulators/debugging environments
+5. **Conscrypt Security Provider**: Up-to-date cryptography without relying on system provider
+6. **Backup Disabled**: No app data is included in backups
+
+## Privacy
+
+- ✅ No analytics or tracking
+- ✅ No data sent to external servers (except when you explicitly open a URL)
+- ✅ No photos or videos recorded
+- ✅ All scanning processed locally via ML Kit
+- ✅ Clipboard auto-clears after 60 seconds
+
+## Requirements
+
+- Android 8.0 (API 26) or higher
+- Camera permission required for QR scanning
